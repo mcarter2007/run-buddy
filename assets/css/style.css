@@ -1,0 +1,51 @@
+/* This remoes browser default enforsed styles and makes the header and inline list even*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    /* more on this crazy alphanumerical value in a minute! */
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  /* apply styles to <header> */
+  header {
+      padding: 20px 35px;
+      background-color: #39a6b2;
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+ /* This moves the header navigation menu to the right */
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+/* This changes the verticle list and makes it side by side*/
+  header nav ul li {
+    display: inline;
+  }
+/* This changes the font size on the inline list and separates them*/
+  header nav ul li a {
+    margin: 0 30px;
+    front-weight: lighter;
+    font-size: 22px;
+}
+/* This raised the inline list up into the blue header bar*/
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
+
