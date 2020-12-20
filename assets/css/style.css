@@ -81,8 +81,8 @@ section {
 /* Hero Style End */
 
 /* homepage hero */
+
 .hero {
-  margin: 20px;
   background-color: white;
   font-size: 20px;
   color: blue;
@@ -94,16 +94,15 @@ section {
   color: red;
 }
 
-
-
 .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
-  width: 500px;
+  width: 560px;
   color: #024e76;
   position: absolute; 
-  bottom: 120px;
+  top: 30px;
+  bottom: 40px;
   right: 140px;
 }
 
